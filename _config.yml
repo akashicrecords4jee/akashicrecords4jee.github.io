@@ -10,7 +10,7 @@ math: mathjax
 
 # Theme settings
 theme: just-the-docs
-# remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs
 color_scheme: ar4j
 search_enabled: true
 search:
