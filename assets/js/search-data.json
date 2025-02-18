@@ -1,0 +1,184 @@
+{"0": {
+    "doc": "About",
+    "title": "About",
+    "content": "WORK IN PROGRESS . ",
+    "url": "/about/",
+    
+    "relUrl": "/about/"
+  },"1": {
+    "doc": "Preface",
+    "title": "Introduction",
+    "content": "This book/blog is meant to be a freely accessible and in-depth resource for learning about jee, and science in general up to a high-school level. We believe in unrestricted access to education for all regardless of whether they are enrolled in some prestigious instituition or not. When education is open source, knowledge multiplies exponentially—each shared insight becomes a seed for innovation, much like open code that evolves into a robust, collective intelligence. In-fact this book/blog is not maintained by some money hungry instituition but rather Jee-aspirants and ex-Jee-aspirants themselves. ",
+    "url": "/preface/#introduction",
+    
+    "relUrl": "/preface/#introduction"
+  },"2": {
+    "doc": "Preface",
+    "title": "Ways to approach this book/blog",
+    "content": "Nowadays, there are plenty of good free resources available online. We try our best to reference all of them, but more importantly show you the right path to follow. We do not believe in the “gamified approach” to teaching. One should let their curiosity, and love for science and problem solving fuel them. So we try to keep distractions to a minimum with a simple design. To double-down on the fact that curiosity is important, we will provide regular case studies, historical developments, and things to explore. One does not have to follow them but we believe that, it should be irresistible to the ones that actually care. ",
+    "url": "/preface/#ways-to-approach-this-bookblog",
+    
+    "relUrl": "/preface/#ways-to-approach-this-bookblog"
+  },"3": {
+    "doc": "Preface",
+    "title": "The Two Schools Of Thought",
+    "content": "There are in general two ways of approaching any problem (in a JEE as well as general setting). Only a master of both, can solve problems effectively. ",
+    "url": "/preface/#the-two-schools-of-thought",
+    
+    "relUrl": "/preface/#the-two-schools-of-thought"
+  },"4": {
+    "doc": "Preface",
+    "title": "The Symbolic/Algebraic Approach",
+    "content": "In this type of thought process one focuses purely on the equations, and only find answers via algebraic manipulation. This approach allows us to abstract away the complexities of the actual problem, and rely solely on mathematical rules, that have already been learnt. It allows us to detach the problem from its setting. Some people are naturally more inclined towards this approach and can solve equations pretty fast. But as it so happens some may also struggle with numbers, and the symbolic notation in general. Therefore we also propose an alternative method. ",
+    "url": "/preface/#the-symbolicalgebraic-approach",
+    
+    "relUrl": "/preface/#the-symbolicalgebraic-approach"
+  },"5": {
+    "doc": "Preface",
+    "title": "The Visual-Spatial/Diagrammatic Approach",
+    "content": " ",
+    "url": "/preface/#the-visual-spatialdiagrammatic-approach",
+    
+    "relUrl": "/preface/#the-visual-spatialdiagrammatic-approach"
+  },"6": {
+    "doc": "Preface",
+    "title": "Preface",
+    "content": ". | Introduction | Ways to approach this book/blog . | The Two Schools Of Thought . | The Symbolic/Algebraic Approach | The Visual-Spatial/Diagrammatic Approach | . | . | . ",
+    "url": "/preface/",
+    
+    "relUrl": "/preface/"
+  },"7": {
+    "doc": "basic-maths",
+    "title": "Basic Maths",
+    "content": " ",
+    "url": "/physics/basic-maths/index/#basic-maths",
+    
+    "relUrl": "/physics/basic-maths/index/#basic-maths"
+  },"8": {
+    "doc": "basic-maths",
+    "title": "Table of contents",
+    "content": ". | Overview | . ",
+    "url": "/physics/basic-maths/index/#table-of-contents",
+    
+    "relUrl": "/physics/basic-maths/index/#table-of-contents"
+  },"9": {
+    "doc": "basic-maths",
+    "title": "Overview",
+    "content": "We are required to know a few math concepts, before we can dive into physics. These topics are in no way comprehensive, or in depth, like the math version of these topics. They are just meant to bring you up to a level where u can apply these in physics, without dealing with the underlying edge cases and such. ",
+    "url": "/physics/basic-maths/index/#overview",
+    
+    "relUrl": "/physics/basic-maths/index/#overview"
+  },"10": {
+    "doc": "basic-maths",
+    "title": "basic-maths",
+    "content": " ",
+    "url": "/physics/basic-maths/index/",
+    
+    "relUrl": "/physics/basic-maths/index/"
+  },"11": {
+    "doc": "Vectors",
+    "title": "Kinematics",
+    "content": " ",
+    "url": "/physics/basic-maths/vectors/#kinematics",
+    
+    "relUrl": "/physics/basic-maths/vectors/#kinematics"
+  },"12": {
+    "doc": "Vectors",
+    "title": "Table of contents",
+    "content": ". | Introduction . | Key Concepts | . | Basic Equations . | Derivation | . | Example Problems . | Problem 1 . | Solution Approach | . | . | Practice Problems | Common Mistakes to Avoid | Additional Resources | . ",
+    "url": "/physics/basic-maths/vectors/#table-of-contents",
+    
+    "relUrl": "/physics/basic-maths/vectors/#table-of-contents"
+  },"13": {
+    "doc": "Vectors",
+    "title": "Introduction",
+    "content": "Kinematics is the study of motion without considering its causes. ",
+    "url": "/physics/basic-maths/vectors/#introduction",
+    
+    "relUrl": "/physics/basic-maths/vectors/#introduction"
+  },"14": {
+    "doc": "Vectors",
+    "title": "Key Concepts",
+    "content": ". | Position | Velocity | Acceleration | . ",
+    "url": "/physics/basic-maths/vectors/#key-concepts",
+    
+    "relUrl": "/physics/basic-maths/vectors/#key-concepts"
+  },"15": {
+    "doc": "Vectors",
+    "title": "Basic Equations",
+    "content": "For constant acceleration: . \\[v = u + at\\] \\[s = ut + \\frac{1}{2}at^2\\] ",
+    "url": "/physics/basic-maths/vectors/#basic-equations",
+    
+    "relUrl": "/physics/basic-maths/vectors/#basic-equations"
+  },"16": {
+    "doc": "Vectors",
+    "title": "Derivation",
+    "content": "graph TD A[Position] –&gt; B[Velocity] B –&gt; C[Acceleration] C –&gt; D[Equations of Motion] . ",
+    "url": "/physics/basic-maths/vectors/#derivation",
+    
+    "relUrl": "/physics/basic-maths/vectors/#derivation"
+  },"17": {
+    "doc": "Vectors",
+    "title": "Example Problems",
+    "content": " ",
+    "url": "/physics/basic-maths/vectors/#example-problems",
+    
+    "relUrl": "/physics/basic-maths/vectors/#example-problems"
+  },"18": {
+    "doc": "Vectors",
+    "title": "Problem 1",
+    "content": "A ball is thrown vertically upward… . Solution Approach . | Identify given quantities | Choose appropriate equation | Solve step by step | . ",
+    "url": "/physics/basic-maths/vectors/#problem-1",
+    
+    "relUrl": "/physics/basic-maths/vectors/#problem-1"
+  },"19": {
+    "doc": "Vectors",
+    "title": "Practice Problems",
+    "content": ". | Problem statement… . | Hint: Think about… | Solution | . | . ",
+    "url": "/physics/basic-maths/vectors/#practice-problems",
+    
+    "relUrl": "/physics/basic-maths/vectors/#practice-problems"
+  },"20": {
+    "doc": "Vectors",
+    "title": "Common Mistakes to Avoid",
+    "content": ". | Mixing up signs | Forgetting initial conditions | . ",
+    "url": "/physics/basic-maths/vectors/#common-mistakes-to-avoid",
+    
+    "relUrl": "/physics/basic-maths/vectors/#common-mistakes-to-avoid"
+  },"21": {
+    "doc": "Vectors",
+    "title": "Additional Resources",
+    "content": ". | Video Lecture | Practice Sheet | . ",
+    "url": "/physics/basic-maths/vectors/#additional-resources",
+    
+    "relUrl": "/physics/basic-maths/vectors/#additional-resources"
+  },"22": {
+    "doc": "Vectors",
+    "title": "Vectors",
+    "content": " ",
+    "url": "/physics/basic-maths/vectors/",
+    
+    "relUrl": "/physics/basic-maths/vectors/"
+  },"23": {
+    "doc": "Physics",
+    "title": "Physics",
+    "content": "Welcome to the Physics section of Akashic Records 4 JEE. ",
+    "url": "/physics/",
+    
+    "relUrl": "/physics/"
+  },"24": {
+    "doc": "Chemistry",
+    "title": "Chemistry",
+    "content": "WORK IN PROGRESS . ",
+    "url": "/chemistry/",
+    
+    "relUrl": "/chemistry/"
+  },"25": {
+    "doc": "Maths",
+    "title": "Maths",
+    "content": "WORK IN PROGRESS . ",
+    "url": "/maths/",
+    
+    "relUrl": "/maths/"
+  }
+}
