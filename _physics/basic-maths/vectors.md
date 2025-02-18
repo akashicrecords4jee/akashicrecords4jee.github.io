@@ -21,7 +21,7 @@ The need for vectors in physics arises from the fundamental question:
 
 > How do we describe direction?
 
-Typically we would just point with out fingers or say "right" or "left", but clearly this would not make any sense for mathematical calculations.
+Typically we would just point with our fingers or say "right" or "left", but clearly this would not make any sense for mathematical calculations.
 We need a **robust, mathematical way** to represent direction.
 
 Although the concept of vectors taught in the modern way seems easy, we must first analyse **how they came to be.** You may skip [ahead](#the-concept) if the history does not spark your interests.
