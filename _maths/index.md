@@ -7,4 +7,6 @@ permalink: /maths/
 ---
 
 # Maths
+Coming soon
+{: .label .label-yellow }
 WORK IN PROGRESS

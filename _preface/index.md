@@ -4,8 +4,11 @@ title: Preface
 nav_order: 1
 has_children: true
 permalink: /preface/
+
 ---
 
+# Preface
+{: .no-toc}
 
 Table of contents
 
@@ -15,14 +18,14 @@ Table of contents
 
 # Introduction
 
-This book/blog is meant to be a freely accessible and in-depth resource for learning about jee, and science in general up to a high-school level.
+This book/blog is meant to be a freely accessible and in-depth resource for learning about [JEE](https://en.wikipedia.org/wiki/Joint_Entrance_Examination), and science in general up to a high-school level.
 
 We believe in unrestricted access to education for all regardless of whether they are enrolled in some prestigious instituition or not.
 
 
 > When education is open source, knowledge multiplies exponentially—each shared insight becomes a seed for innovation, much like open code that evolves into a robust, collective intelligence.
 
-In-fact this book/blog is not maintained by some money hungry instituition but rather Jee-aspirants and ex-Jee-aspirants themselves.
+In-fact this book/blog is not maintained by some "money-hungry" instituition but rather Jee-aspirants and ex-Jee-aspirants themselves.
 
 
 
@@ -38,7 +41,7 @@ To double-down on the fact that curiosity is important, we will provide regular 
 
 ## The Two Schools Of Thought
 There are in general two ways of approaching any problem (in a JEE as well as general setting).
-Only a master of both, can solve problems effectively.
+Only a master of both, can solve problems effectively. We will be showing both approaches, for most questions listed here, so one can pick what works best for them.
 
 
 ### The Symbolic/Algebraic Approach
@@ -47,3 +50,4 @@ This approach allows us to abstract away the complexities of the actual problem,
 Some people are naturally more inclined towards this approach and can solve equations pretty fast. But as it so happens some may also struggle with numbers, and the symbolic notation in general. Therefore we also propose an alternative method.
 
 ### The Visual-Spatial/Diagrammatic Approach
+In this type of method one focuses of the **graphs** and **diagrams**. It requires a strong understanding of how graphs work, what the slopes are, the intercepts, etc. One might see numerous demerits in such a way of thinking, but as it turns out- It leads to some of the most beautiful solutions as you will see later on in this book/blog. Unironically, the advantage of this method cannot be put into words, but can only be shown through problem-solutions.

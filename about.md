@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
-WORK IN PROGRESS
-
+# Work In Progress
+Coming soon
+{: .label .label-yellow }
 [Go to preface]({{ site.baseurl }}/preface)

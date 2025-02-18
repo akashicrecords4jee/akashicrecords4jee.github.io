@@ -6,7 +6,7 @@ grand_parent: Physics
 nav_order: 1
 ---
 
-# Kinematics
+# Vectors
 {: .no_toc }
 
 ## Table of contents
@@ -15,60 +15,23 @@ nav_order: 1
 1. TOC
 {:toc}
 
-## Introduction
+# The Problem And History
 
-Kinematics is the study of motion without considering its causes.
+The need for vectors in physics arises from the fundamental question:
 
-### Key Concepts
+> How do we describe direction?
 
-1. Position
-2. Velocity
-3. Acceleration
+Typically we would just point with out fingers or say "right" or "left", but clearly this would not make any sense for mathematical calculations.
+We need a **robust, mathematical way** to represent direction.
 
-## Basic Equations
+Although the concept of vectors taught in the modern way seems easy, we must first analyse **how they came to be.** You may skip [ahead](#the-concept) if the history does not spark your interests.
+## The First attempt
+ In the 16th century, mathematicians like [Girolamo Cardano](https://en.wikipedia.org/wiki/Gerolamo_Cardano) began exploring solutions to equations that led to the concept of **complex numbers**, which have both real and imaginary parts.
 
-For constant acceleration:
-
-$$
-v = u + at
-$$
-
-$$
-s = ut + \frac{1}{2}at^2
-$$
-
-### Derivation
+<img src="/assets/images/physics/vectors/fig-1.png" alt="Imaginary graph" style="display: block; margin-left: auto; margin-right: auto;" width="400" height="300">
 
 
-graph TD
-    A[Position] --> B[Velocity]
-    B --> C[Acceleration]
-    C --> D[Equations of Motion]
+# The Concept
 
-
-## Example Problems
-
-### Problem 1
-
-A ball is thrown vertically upward...
-
-#### Solution Approach
-1. Identify given quantities
-2. Choose appropriate equation
-3. Solve step by step
-
-## Practice Problems
-
-1. Problem statement...
-   - Hint: Think about...
-   - [Solution](#)
-
-## Common Mistakes to Avoid
-
-1. Mixing up signs
-2. Forgetting initial conditions
-
-## Additional Resources
-
-1. [Video Lecture](#)
-2. [Practice Sheet](#)
+<!--
+<img src="/assets/images/physics/vectors/vectors_meme_1.jpg" alt="Vectors Meme" style="display: block; margin-left: auto; margin-right: auto;" width="400" height="300"> -->
