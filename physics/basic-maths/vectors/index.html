@@ -64,17 +64,17 @@
 <meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="Vectors" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Kinematics" />
-<meta property="og:description" content="Kinematics" />
+<meta name="description" content="Vectors" />
+<meta property="og:description" content="Vectors" />
 <link rel="canonical" href="https://akashicrecords4jee.github.io/physics/basic-maths/vectors/" />
 <meta property="og:url" content="https://akashicrecords4jee.github.io/physics/basic-maths/vectors/" />
 <meta property="og:site_name" content="Akashic Records For JEE" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-02-18T14:11:58+00:00" />
+<meta property="article:published_time" content="2025-02-18T15:10:09+00:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Vectors" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-18T14:11:58+00:00","datePublished":"2025-02-18T14:11:58+00:00","description":"Kinematics","headline":"Vectors","mainEntityOfPage":{"@type":"WebPage","@id":"https://akashicrecords4jee.github.io/physics/basic-maths/vectors/"},"url":"https://akashicrecords4jee.github.io/physics/basic-maths/vectors/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-18T15:10:09+00:00","datePublished":"2025-02-18T15:10:09+00:00","description":"Vectors","headline":"Vectors","mainEntityOfPage":{"@type":"WebPage","@id":"https://akashicrecords4jee.github.io/physics/basic-maths/vectors/"},"url":"https://akashicrecords4jee.github.io/physics/basic-maths/vectors/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -302,10 +302,10 @@
       <div id="main-content" class="main-content">
         <main>
           
-            <h1 class="no_toc" id="kinematics">
+            <h1 class="no_toc" id="vectors">
   
   
-    <a href="#kinematics" class="anchor-heading" aria-labelledby="kinematics"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Kinematics
+    <a href="#vectors" class="anchor-heading" aria-labelledby="vectors"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Vectors
   
   
 </h1>
@@ -320,150 +320,53 @@
     
 
 <ol id="markdown-toc">
-  <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a>    <ol>
-      <li><a href="#key-concepts" id="markdown-toc-key-concepts">Key Concepts</a></li>
+  <li><a href="#the-problem-and-history" id="markdown-toc-the-problem-and-history">The Problem And History</a>    <ol>
+      <li><a href="#the-first-attempt" id="markdown-toc-the-first-attempt">The First attempt</a></li>
     </ol>
   </li>
-  <li><a href="#basic-equations" id="markdown-toc-basic-equations">Basic Equations</a>    <ol>
-      <li><a href="#derivation" id="markdown-toc-derivation">Derivation</a></li>
-    </ol>
-  </li>
-  <li><a href="#example-problems" id="markdown-toc-example-problems">Example Problems</a>    <ol>
-      <li><a href="#problem-1" id="markdown-toc-problem-1">Problem 1</a>        <ol>
-          <li><a href="#solution-approach" id="markdown-toc-solution-approach">Solution Approach</a></li>
-        </ol>
-      </li>
-    </ol>
-  </li>
-  <li><a href="#practice-problems" id="markdown-toc-practice-problems">Practice Problems</a></li>
-  <li><a href="#common-mistakes-to-avoid" id="markdown-toc-common-mistakes-to-avoid">Common Mistakes to Avoid</a></li>
-  <li><a href="#additional-resources" id="markdown-toc-additional-resources">Additional Resources</a></li>
+  <li><a href="#the-concept" id="markdown-toc-the-concept">The Concept</a></li>
 </ol>
-<h2 id="introduction">
+<h1 id="the-problem-and-history">
   
   
-    <a href="#introduction" class="anchor-heading" aria-labelledby="introduction"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Introduction
+    <a href="#the-problem-and-history" class="anchor-heading" aria-labelledby="the-problem-and-history"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> The Problem And History
+  
+  
+</h1>
+    
+
+<p>The need for vectors in physics arises from the fundamental question:</p>
+
+<blockquote>
+  <p>How do we describe direction?</p>
+</blockquote>
+
+<p>Typically we would just point with out fingers or say “right” or “left”, but clearly this would not make any sense for mathematical calculations.
+We need a <strong>robust, mathematical way</strong> to represent direction.</p>
+
+<p>Although the concept of vectors taught in the modern way seems easy, we must first analyse <strong>how they came to be.</strong> You may skip <a href="#the-concept">ahead</a> if the history does not spark your interests.</p>
+<h2 id="the-first-attempt">
+  
+  
+    <a href="#the-first-attempt" class="anchor-heading" aria-labelledby="the-first-attempt"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> The First attempt
   
   
 </h2>
     
+<p>In the 16th century, mathematicians like <a href="https://en.wikipedia.org/wiki/Gerolamo_Cardano">Girolamo Cardano</a> began exploring solutions to equations that led to the concept of <strong>complex numbers</strong>, which have both real and imaginary parts.</p>
 
-<p>Kinematics is the study of motion without considering its causes.</p>
-<h3 id="key-concepts">
+<p><img src="/assets/images/physics/vectors/fig-1.png" alt="Imaginary graph" style="display: block; margin-left: auto; margin-right: auto;" width="400" height="300" /></p>
+<h1 id="the-concept">
   
   
-    <a href="#key-concepts" class="anchor-heading" aria-labelledby="key-concepts"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Key Concepts
+    <a href="#the-concept" class="anchor-heading" aria-labelledby="the-concept"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> The Concept
   
   
-</h3>
+</h1>
     
 
-<ol>
-  <li>Position</li>
-  <li>Velocity</li>
-  <li>Acceleration</li>
-</ol>
-<h2 id="basic-equations">
-  
-  
-    <a href="#basic-equations" class="anchor-heading" aria-labelledby="basic-equations"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Basic Equations
-  
-  
-</h2>
-    
-
-<p>For constant acceleration:</p>
-
-\[v = u + at\]
-
-\[s = ut + \frac{1}{2}at^2\]
-<h3 id="derivation">
-  
-  
-    <a href="#derivation" class="anchor-heading" aria-labelledby="derivation"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Derivation
-  
-  
-</h3>
-    
-
-<p>graph TD
-    A[Position] –&gt; B[Velocity]
-    B –&gt; C[Acceleration]
-    C –&gt; D[Equations of Motion]</p>
-<h2 id="example-problems">
-  
-  
-    <a href="#example-problems" class="anchor-heading" aria-labelledby="example-problems"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Example Problems
-  
-  
-</h2>
-    
-<h3 id="problem-1">
-  
-  
-    <a href="#problem-1" class="anchor-heading" aria-labelledby="problem-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Problem 1
-  
-  
-</h3>
-    
-
-<p>A ball is thrown vertically upward…</p>
-<h4 id="solution-approach">
-  
-  
-    <a href="#solution-approach" class="anchor-heading" aria-labelledby="solution-approach"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Solution Approach
-  
-  
-</h4>
-    
-<ol>
-  <li>Identify given quantities</li>
-  <li>Choose appropriate equation</li>
-  <li>Solve step by step</li>
-</ol>
-<h2 id="practice-problems">
-  
-  
-    <a href="#practice-problems" class="anchor-heading" aria-labelledby="practice-problems"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Practice Problems
-  
-  
-</h2>
-    
-
-<ol>
-  <li>Problem statement…
-    <ul>
-      <li>Hint: Think about…</li>
-      <li><a href="#">Solution</a></li>
-    </ul>
-  </li>
-</ol>
-<h2 id="common-mistakes-to-avoid">
-  
-  
-    <a href="#common-mistakes-to-avoid" class="anchor-heading" aria-labelledby="common-mistakes-to-avoid"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Common Mistakes to Avoid
-  
-  
-</h2>
-    
-
-<ol>
-  <li>Mixing up signs</li>
-  <li>Forgetting initial conditions</li>
-</ol>
-<h2 id="additional-resources">
-  
-  
-    <a href="#additional-resources" class="anchor-heading" aria-labelledby="additional-resources"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Additional Resources
-  
-  
-</h2>
-    
-
-<ol>
-  <li><a href="#">Video Lecture</a></li>
-  <li><a href="#">Practice Sheet</a></li>
-</ol>
+<!--
+<img src="/assets/images/physics/vectors/vectors_meme_1.jpg" alt="Vectors Meme" style="display: block; margin-left: auto; margin-right: auto;" width="400" height="300"> -->
 
           
 
