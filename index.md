@@ -1,7 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 # Work In Progress
+
+## nothing to see here.
+
+[Go to preface]({{ site.baseurl }}/preface)
