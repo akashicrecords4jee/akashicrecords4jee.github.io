@@ -71,7 +71,7 @@
   },"10": {
     "doc": "basic-maths",
     "title": "Overview",
-    "content": "We are required to know a few math concepts, before we can dive into physics. These topics are in no way comprehensive, or in depth, like the math version of these topics. They are just meant to bring you up to a level where u can apply these in physics, without dealing with the underlying edge cases and such. ",
+    "content": "We are required to know a few math concepts, before we can dive into physics. These topics are in no way comprehensive, or in depth, like the math version of these topics. They are just meant to bring you up to a level where you can apply these in physics, without dealing with the underlying edge cases and such. ",
     "url": "/physics/basic-maths/index/#overview",
     
     "relUrl": "/physics/basic-maths/index/#overview"
@@ -99,7 +99,7 @@
   },"14": {
     "doc": "Vectors",
     "title": "The Problem And History",
-    "content": "The need for vectors in physics arises from the fundamental question: . How do we describe direction? . Typically we would just point with out fingers or say “right” or “left”, but clearly this would not make any sense for mathematical calculations. We need a robust, mathematical way to represent direction. Although the concept of vectors taught in the modern way seems easy, we must first analyse how they came to be. You may skip ahead if the history does not spark your interests. ",
+    "content": "The need for vectors in physics arises from the fundamental question: . How do we describe direction? . Typically we would just point with our fingers or say “right” or “left”, but clearly this would not make any sense for mathematical calculations. We need a robust, mathematical way to represent direction. Although the concept of vectors taught in the modern way seems easy, we must first analyse how they came to be. You may skip ahead if the history does not spark your interests. ",
     "url": "/physics/basic-maths/vectors/#the-problem-and-history",
     
     "relUrl": "/physics/basic-maths/vectors/#the-problem-and-history"
