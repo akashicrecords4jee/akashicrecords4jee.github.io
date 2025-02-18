@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "*.md": "markdown",
+        "*.html": "jekyll"
+    },
+    "editor.formatOnSave": true,
+    "ruby.useBundler": true,
+    "ruby.useLanguageServer": true,
+    "ruby.lint": {
+        "rubocop": {
+            "useBundler": true
+        }
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+        "editor.wordWrap": "on"
+    },
+    "git.enableSmartCommit": true,
+    "git.autofetch": true
+}
