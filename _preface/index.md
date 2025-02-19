@@ -51,3 +51,8 @@ Some people are naturally more inclined towards this approach and can solve equa
 
 ### The Visual-Spatial/Diagrammatic Approach
 In this type of method one focuses of the **graphs** and **diagrams**. It requires a strong understanding of how graphs work, what the slopes are, the intercepts, etc. One might see numerous demerits in such a way of thinking, but as it turns out- It leads to some of the most beautiful solutions as you will see later on in this book/blog. Unironically, the advantage of this method cannot be put into words, but can only be shown through problem-solutions.
+
+
+## Citations/Sources:
+We try to collect information from as many sources as possible. However we still try our best to cite all of them, to give credit where it's due, and not take credit for unoriginal tricks, or methods.
+All sources used in writing a specific topic/chapter will be linked down in the `Bibliography` section. We hope you will take a look for further research as well as out of curiosity.

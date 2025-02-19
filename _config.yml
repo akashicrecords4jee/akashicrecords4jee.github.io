@@ -6,8 +6,6 @@ baseurl: ""
 url: "https://akashicrecords4jee.github.io"
 repository: akashicrecords4jee/akashicrecords4jee.github.io
 
-math: mathjax
-
 # Theme settings
 theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs
@@ -62,10 +60,18 @@ just_the_docs:
       name: Maths
       nav_fold: true
 
-# Enable math support
+# Use Kramdown as the markdown processor
+markdown: kramdown
+
+# Tell Jekyll to use MathJax for math rendering
+math: mathjax
+
+# Configure Kramdown to pass through math delimiters
 kramdown:
   math_engine: mathjax
-  syntax_highlighter: rouge
+  math_engine_opts:
+    inline_math_delims: ['\\(', '\\)']
+    display_math_delims: ["$$", "$$"]
 
 # Exclude files from processing
 exclude:

@@ -6,7 +6,7 @@ parent: Physics
 nav_order: 1
 ---
 
-# Basic Maths
+# Basic Maths For Physics
 {: .no_toc }
 
 ## Table of contents
