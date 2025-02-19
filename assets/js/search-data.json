@@ -15,7 +15,7 @@
   },"2": {
     "doc": "Preface",
     "title": "Preface",
-    "content": ". | Preface | Introduction | Ways to approach this book/blog . | The Two Schools Of Thought . | The Symbolic/Algebraic Approach | The Visual-Spatial/Diagrammatic Approach | . | . | . ",
+    "content": ". | Preface | Introduction | Ways to approach this book/blog . | The Two Schools Of Thought . | The Symbolic/Algebraic Approach | The Visual-Spatial/Diagrammatic Approach | . | Citations/Sources: | . | . ",
     "url": "/preface/",
     
     "relUrl": "/preface/"
@@ -55,83 +55,153 @@
     
     "relUrl": "/preface/#the-visual-spatialdiagrammatic-approach"
   },"8": {
-    "doc": "basic-maths",
-    "title": "Basic Maths",
-    "content": " ",
-    "url": "/physics/basic-maths/index/#basic-maths",
+    "doc": "Preface",
+    "title": "Citations/Sources:",
+    "content": "We try to collect information from as many sources as possible. However we still try our best to cite all of them, to give credit where it’s due, and not take credit for unoriginal tricks, or methods. All sources used in writing a specific topic/chapter will be linked down in the Bibliography section. We hope you will take a look for further research as well as out of curiosity. ",
+    "url": "/preface/#citationssources",
     
-    "relUrl": "/physics/basic-maths/index/#basic-maths"
+    "relUrl": "/preface/#citationssources"
   },"9": {
+    "doc": "basic-maths",
+    "title": "Basic Maths For Physics",
+    "content": " ",
+    "url": "/physics/basic-maths/index/#basic-maths-for-physics",
+    
+    "relUrl": "/physics/basic-maths/index/#basic-maths-for-physics"
+  },"10": {
     "doc": "basic-maths",
     "title": "Table of contents",
     "content": ". | Overview | . ",
     "url": "/physics/basic-maths/index/#table-of-contents",
     
     "relUrl": "/physics/basic-maths/index/#table-of-contents"
-  },"10": {
+  },"11": {
     "doc": "basic-maths",
     "title": "Overview",
     "content": "We are required to know a few math concepts, before we can dive into physics. These topics are in no way comprehensive, or in depth, like the math version of these topics. They are just meant to bring you up to a level where you can apply these in physics, without dealing with the underlying edge cases and such. ",
     "url": "/physics/basic-maths/index/#overview",
     
     "relUrl": "/physics/basic-maths/index/#overview"
-  },"11": {
+  },"12": {
     "doc": "basic-maths",
     "title": "basic-maths",
     "content": " ",
     "url": "/physics/basic-maths/index/",
     
     "relUrl": "/physics/basic-maths/index/"
-  },"12": {
+  },"13": {
     "doc": "Vectors",
     "title": "Vectors",
     "content": " ",
     "url": "/physics/basic-maths/vectors/",
     
     "relUrl": "/physics/basic-maths/vectors/"
-  },"13": {
+  },"14": {
     "doc": "Vectors",
     "title": "Table of contents",
-    "content": ". | The Problem And History . | The First attempt | . | The Concept | . ",
+    "content": ". | The Problem And History . | Historical developments | . | The Concept | . ",
     "url": "/physics/basic-maths/vectors/#table-of-contents",
     
     "relUrl": "/physics/basic-maths/vectors/#table-of-contents"
-  },"14": {
+  },"15": {
     "doc": "Vectors",
     "title": "The Problem And History",
-    "content": "The need for vectors in physics arises from the fundamental question: . How do we describe direction? . Typically we would just point with our fingers or say “right” or “left”, but clearly this would not make any sense for mathematical calculations. We need a robust, mathematical way to represent direction. Although the concept of vectors taught in the modern way seems easy, we must first analyse how they came to be. You may skip ahead if the history does not spark your interests. ",
+    "content": "The need for vectors in physics arises from the fundamental question: . How do we describe direction? . Typically we would just point with our fingers or say “right” or “left”, but clearly this would not make any sense for mathematical calculations. We need a robust, mathematical way to represent direction. ",
     "url": "/physics/basic-maths/vectors/#the-problem-and-history",
     
     "relUrl": "/physics/basic-maths/vectors/#the-problem-and-history"
-  },"15": {
-    "doc": "Vectors",
-    "title": "The First attempt",
-    "content": "In the 16th century, mathematicians like Girolamo Cardano began exploring solutions to equations that led to the concept of complex numbers, which have both real and imaginary parts. ",
-    "url": "/physics/basic-maths/vectors/#the-first-attempt",
-    
-    "relUrl": "/physics/basic-maths/vectors/#the-first-attempt"
   },"16": {
+    "doc": "Vectors",
+    "title": "Historical developments",
+    "content": "Coming soon . ",
+    "url": "/physics/basic-maths/vectors/#historical-developments",
+    
+    "relUrl": "/physics/basic-maths/vectors/#historical-developments"
+  },"17": {
     "doc": "Vectors",
     "title": "The Concept",
     "content": " ",
     "url": "/physics/basic-maths/vectors/#the-concept",
     
     "relUrl": "/physics/basic-maths/vectors/#the-concept"
-  },"17": {
+  },"18": {
     "doc": "Physics",
     "title": "Physics",
     "content": "Welcome to the Physics section of Akashic Records 4 JEE. ",
     "url": "/physics/",
     
     "relUrl": "/physics/"
-  },"18": {
+  },"19": {
     "doc": "Chemistry",
     "title": "Chemistry",
     "content": "Coming soon . WORK IN PROGRESS . ",
     "url": "/chemistry/",
     
     "relUrl": "/chemistry/"
-  },"19": {
+  },"20": {
+    "doc": "basic-maths",
+    "title": "Basic Maths",
+    "content": " ",
+    "url": "/maths/basic-maths/index/#basic-maths",
+    
+    "relUrl": "/maths/basic-maths/index/#basic-maths"
+  },"21": {
+    "doc": "basic-maths",
+    "title": "Table of contents",
+    "content": ". | Overview | . ",
+    "url": "/maths/basic-maths/index/#table-of-contents",
+    
+    "relUrl": "/maths/basic-maths/index/#table-of-contents"
+  },"22": {
+    "doc": "basic-maths",
+    "title": "Overview",
+    "content": "A few basic math concepts, that revise 10th grade and previous knowledge, as well as introduce some new tricks to get by in JEE maths. ",
+    "url": "/maths/basic-maths/index/#overview",
+    
+    "relUrl": "/maths/basic-maths/index/#overview"
+  },"23": {
+    "doc": "basic-maths",
+    "title": "basic-maths",
+    "content": " ",
+    "url": "/maths/basic-maths/index/",
+    
+    "relUrl": "/maths/basic-maths/index/"
+  },"24": {
+    "doc": "Telescoping",
+    "title": "Telescoping",
+    "content": " ",
+    "url": "/maths/basic-maths/telescoping/",
+    
+    "relUrl": "/maths/basic-maths/telescoping/"
+  },"25": {
+    "doc": "Telescoping",
+    "title": "Table of contents",
+    "content": ". | The Boring Method | The Hacks | Bibliography | . Any series/sum/product that looks something like: . \\[\\sum_{r=n_{\\text{lower}}}^{n_{\\text{upper}}} \\left( f(r+1) - f(r) \\right)\\] That, or— . \\[\\sum_{r=a}^{b} \\left( f(r+3) - f(r-1) \\right)\\] This… or— . \\[\\prod_{r=a}^{b} \\left( \\frac{f(r+3)}{f(r-1)} \\right)\\] (You get the point) is called a Telescopic series. ",
+    "url": "/maths/basic-maths/telescoping/#table-of-contents",
+    
+    "relUrl": "/maths/basic-maths/telescoping/#table-of-contents"
+  },"26": {
+    "doc": "Telescoping",
+    "title": "The Boring Method",
+    "content": "Now typically one would solve this by cancelling out the terms, for example, take: . \\[\\sum_{r=1}^{n} \\left( \\frac{1}{r+1} - \\frac{1}{r} \\right)\\] You’d typically put the values, and write out a few \\(T_n\\) terms to find out which ones get cancelled, like: . \\[\\begin{aligned} T_1 &amp;= \\frac{1}{2} - \\frac{1}{1}\\\\ T_2 &amp;= \\frac{1}{3} - \\frac{1}{2}\\\\ T_3 &amp;= \\frac{1}{4} - \\frac{1}{3}\\\\ ...\\\\ \\end{aligned}\\] It must be obvious, that the left diagonal or (top-left to bottom-right) are getting cancelled. Since \\(S_n\\) (Sum of n terms) is \\(T_1+T_2+T_3+…\\), . \\(S_n\\) reduces to: . \\[S_n = \\frac{1}{n+1} - \\frac{1}{1}\\] And then you put whatever values are given. But clearly this method will be REALLY PAINFUL when dealing with larger functions or series with a gap in them like: \\(\\sum_{r=1}^{n} ((r+3)-(r-1))\\). ",
+    "url": "/maths/basic-maths/telescoping/#the-boring-method",
+    
+    "relUrl": "/maths/basic-maths/telescoping/#the-boring-method"
+  },"27": {
+    "doc": "Telescoping",
+    "title": "The Hacks",
+    "content": " ",
+    "url": "/maths/basic-maths/telescoping/#the-hacks",
+    
+    "relUrl": "/maths/basic-maths/telescoping/#the-hacks"
+  },"28": {
+    "doc": "Telescoping",
+    "title": "Bibliography",
+    "content": ". | Telescoping - Anshul Sir (Youtube Video) [Main source] | Sequence and Series Class 11 - Arvind Kalia Sir (Youtube Oneshot) | . ",
+    "url": "/maths/basic-maths/telescoping/#bibliography",
+    
+    "relUrl": "/maths/basic-maths/telescoping/#bibliography"
+  },"29": {
     "doc": "Maths",
     "title": "Maths",
     "content": "Coming soon . WORK IN PROGRESS . ",

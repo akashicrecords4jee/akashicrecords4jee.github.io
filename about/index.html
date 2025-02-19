@@ -72,6 +72,22 @@
 
 
   
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['\\(','\\)'] ],
+    displayMath: [ ['$$','$$'], ['\\[','\\]'] ],  // add \[...\]
+    processEscapes: true
+  }
+});
+</script>
+
+
+<!-- Load MathJax from CDN -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 
 </head>
 
@@ -225,7 +241,11 @@
               <li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="Toggle collection Maths" aria-pressed="false">
                   <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
                 </button><div class="nav-category">Maths</div>
-                <ul class="nav-list"><li class="nav-list-item"><a href="/maths/" class="nav-list-link">Maths</a></li></ul>
+                <ul class="nav-list"><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Maths category" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/maths/" class="nav-list-link">Maths</a><ul class="nav-list"><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in basic-maths category" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/maths/basic-maths/index/" class="nav-list-link">basic-maths</a><ul class="nav-list"><li class="nav-list-item"><a href="/maths/basic-maths/telescoping/" class="nav-list-link">Telescoping</a></li></ul></li></ul></li></ul>
               </li>
             </ul>
           

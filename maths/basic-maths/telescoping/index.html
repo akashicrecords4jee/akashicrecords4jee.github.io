@@ -13,16 +13,36 @@
 
   <style id="jtd-nav-activation">
   
-    .site-nav ul li a {
+
+    .site-nav > ul:nth-of-type(5) > li > ul > li > a,
+    .site-nav > ul:nth-of-type(5) > li > ul > li > ul > li > a,
+    
+    .site-nav > ul:nth-of-type(5) > li > ul > li > ul > li > ul > li:not(:nth-child(1)) > a,
+    .site-nav > ul:nth-of-type(5) > li > ul > li > ul > li > ul > li > ul > li a {
       background-image: none;
     }
-    .site-nav > ul.nav-category-list > li > button svg {
-      transform: rotate(-90deg);
-    }
-    .site-nav > ul.nav-category-list > li.nav-list-item > ul.nav-list {
-      display: block;
+
+    .site-nav > ul:not(:nth-of-type(5)) a,
+    .site-nav li.external a {
+      background-image: none;
     }
 
+    .site-nav > ul:nth-of-type(5) > li > ul > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(1) > a {
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .site-nav > ul.nav-category-list > li > button svg,
+    .site-nav > ul:nth-of-type(5) > li > ul > li:nth-child(1) > button svg,
+    .site-nav > ul:nth-of-type(5) > li > ul > li:nth-child(1) > ul > li:nth-child(1) > button svg,
+    .site-nav > ul:nth-of-type(5) > li > ul > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(1) > button svg {
+      transform: rotate(-90deg);
+    }
+    .site-nav > ul.nav-category-list > li.nav-list-item > ul.nav-list,
+    .site-nav > ul:nth-of-type(5) > li > ul > li.nav-list-item:nth-child(1) > ul.nav-list,
+    .site-nav > ul:nth-of-type(5) > li > ul > li.nav-list-item:nth-child(1) > ul.nav-list > li.nav-list-item:nth-child(1) > ul.nav-list,
+    .site-nav > ul:nth-of-type(5) > li > ul > li.nav-list-item:nth-child(1) > ul.nav-list > li.nav-list-item:nth-child(1) > ul.nav-list > li.nav-list-item:nth-child(1) > ul.nav-list {
+      display: block;
+    }
   </style>
 
   
@@ -40,21 +60,21 @@
 
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Welcome to Jekyll! | Akashic Records For JEE</title>
+<title>Telescoping | Akashic Records For JEE</title>
 <meta name="generator" content="Jekyll v4.3.4" />
-<meta property="og:title" content="Welcome to Jekyll!" />
+<meta property="og:title" content="Telescoping" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated." />
-<meta property="og:description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated." />
-<link rel="canonical" href="https://akashicrecords4jee.github.io/jekyll/update/2025/02/18/welcome-to-jekyll.html" />
-<meta property="og:url" content="https://akashicrecords4jee.github.io/jekyll/update/2025/02/18/welcome-to-jekyll.html" />
+<meta name="description" content="Telescoping" />
+<meta property="og:description" content="Telescoping" />
+<link rel="canonical" href="https://akashicrecords4jee.github.io/maths/basic-maths/telescoping/" />
+<meta property="og:url" content="https://akashicrecords4jee.github.io/maths/basic-maths/telescoping/" />
 <meta property="og:site_name" content="Akashic Records For JEE" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-02-18T08:03:37+00:00" />
+<meta property="article:published_time" content="2025-02-19T18:47:51+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Welcome to Jekyll!" />
+<meta property="twitter:title" content="Telescoping" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-18T08:03:37+00:00","datePublished":"2025-02-18T08:03:37+00:00","description":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.","headline":"Welcome to Jekyll!","mainEntityOfPage":{"@type":"WebPage","@id":"https://akashicrecords4jee.github.io/jekyll/update/2025/02/18/welcome-to-jekyll.html"},"url":"https://akashicrecords4jee.github.io/jekyll/update/2025/02/18/welcome-to-jekyll.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-19T18:47:51+00:00","datePublished":"2025-02-19T18:47:51+00:00","description":"Telescoping","headline":"Telescoping","mainEntityOfPage":{"@type":"WebPage","@id":"https://akashicrecords4jee.github.io/maths/basic-maths/telescoping/"},"url":"https://akashicrecords4jee.github.io/maths/basic-maths/telescoping/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -290,27 +310,104 @@ MathJax.Hub.Config({
 </div>
 
     <div class="main-content-wrap">
-      
+      <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+  <ol class="breadcrumb-nav-list">
+    <li class="breadcrumb-nav-list-item"><a href="/maths/">Maths</a></li>
+    <li class="breadcrumb-nav-list-item"><a href="/maths/basic-maths/index/">basic-maths</a></li>
+    <li class="breadcrumb-nav-list-item"><span>Telescoping</span></li>
+  </ol>
+</nav>
+
+
       <div id="main-content" class="main-content">
         <main>
           
-            <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+            <h1 class="no_toc" id="telescoping">
+  
+  
+    <a href="#telescoping" class="anchor-heading" aria-labelledby="telescoping"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Telescoping
+  
+  
+</h1>
+    
+<h2 class="no_toc text-delta" id="table-of-contents">
+  
+  
+    <a href="#table-of-contents" class="anchor-heading" aria-labelledby="table-of-contents"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Table of contents
+  
+  
+</h2>
+    
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+<ol id="markdown-toc">
+  <li><a href="#the-boring-method" id="markdown-toc-the-boring-method">The Boring Method</a></li>
+  <li><a href="#the-hacks" id="markdown-toc-the-hacks">The Hacks</a></li>
+  <li><a href="#bibliography" id="markdown-toc-bibliography">Bibliography</a></li>
+</ol>
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<p>Any series/sum/product that looks something like:</p>
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+\[\sum_{r=n_{\text{lower}}}^{n_{\text{upper}}} \left( f(r+1) - f(r) \right)\]
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>That, or—</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+\[\sum_{r=a}^{b} \left( f(r+3) - f(r-1) \right)\]
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<p>This… or—</p>
+
+\[\prod_{r=a}^{b} \left( \frac{f(r+3)}{f(r-1)} \right)\]
+
+<p><em>(You get the point)</em> is called a Telescopic series.</p>
+<h2 id="the-boring-method">
+  
+  
+    <a href="#the-boring-method" class="anchor-heading" aria-labelledby="the-boring-method"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> The Boring Method
+  
+  
+</h2>
+    
+<p>Now typically one would solve this by <strong>cancelling out the terms</strong>, for example, take:</p>
+
+\[\sum_{r=1}^{n} \left( \frac{1}{r+1} - \frac{1}{r} \right)\]
+
+<p>You’d typically put the values, and write out a few  \(T_n\) terms to find out which ones get cancelled, like:</p>
+
+\[\begin{aligned}
+T_1 &amp;= \frac{1}{2} - \frac{1}{1}\\
+T_2 &amp;= \frac{1}{3} - \frac{1}{2}\\
+T_3 &amp;= \frac{1}{4} - \frac{1}{3}\\
+...\\
+\end{aligned}\]
+
+<p>It must be obvious, that the <strong>left diagonal</strong> or (top-left to bottom-right) are getting cancelled.</p>
+
+<p>Since \(S_n\) (Sum of n terms) is \(T_1+T_2+T_3+…\),</p>
+
+<p>\(S_n\) reduces to:</p>
+
+\[S_n = \frac{1}{n+1} - \frac{1}{1}\]
+
+<p>And then you put whatever values are given. But clearly this method will be <strong>REALLY PAINFUL</strong> when dealing with larger functions or series with a gap in them like: \(\sum_{r=1}^{n} ((r+3)-(r-1))\).</p>
+<h2 id="the-hacks">
+  
+  
+    <a href="#the-hacks" class="anchor-heading" aria-labelledby="the-hacks"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> The Hacks
+  
+  
+</h2>
+    
+<h2 id="bibliography">
+  
+  
+    <a href="#bibliography" class="anchor-heading" aria-labelledby="bibliography"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Bibliography
+  
+  
+</h2>
+    
+<ul>
+  <li><a href="https://www.youtube.com/live/7zmFMZmwX3U">Telescoping - Anshul Sir (Youtube Video) [Main source]</a></li>
+  <li><a href="https://www.youtube.com/watch?v=ZbpePu2KDKY">Sequence and Series Class 11 - Arvind Kalia Sir (Youtube Oneshot)</a></li>
+</ul>
 
           
 
