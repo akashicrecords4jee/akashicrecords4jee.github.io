@@ -210,5 +210,5 @@ def root():
     yield {}
 
 if __name__ == '__main__':
-    app.run(debug=True)
-    # freezer.freeze()  # Generate static files
+    # app.run(debug=True)
+    freezer.freeze()  # Generate static files
