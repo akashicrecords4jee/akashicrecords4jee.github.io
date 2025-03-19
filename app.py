@@ -201,5 +201,5 @@ def content_page_generator():
         yield {'path': path}
 
 if __name__ == '__main__':
-    app.run(debug=True)
-    # freezer.freeze()  # Uncomment to generate static files
+    # app.run(debug=True) # Uncomment this line to run the app locally
+    freezer.freeze()  # Comment to run locally (without building static site)
