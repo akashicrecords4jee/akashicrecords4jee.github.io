@@ -6,6 +6,3 @@ has_children: true
 permalink: /chemistry/
 ---
 # Chemistry
-Coming soon
-{: .label .label-yellow }
-WORK IN PROGRESS

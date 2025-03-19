@@ -78,3 +78,4 @@ And then you put whatever values are given. But clearly this method will be **RE
 ## Bibliography
 - [Telescoping - Anshul Sir (Youtube Video) [Main source]](https://www.youtube.com/live/7zmFMZmwX3U)
 - [Sequence and Series Class 11 - Arvind Kalia Sir (Youtube Oneshot)](https://www.youtube.com/watch?v=ZbpePu2KDKY)
+- [Sophie Germain's identity (wikipedia)](https://en.wikipedia.org/wiki/Sophie_Germain%27s_identity)

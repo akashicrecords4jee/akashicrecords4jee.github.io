@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% block title %}{{ content.metadata.title }}{% endblock %}
+{% block content %}
+<div class="content-wrapper">
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs">
+        {% for crumb in breadcrumbs %}
+            {% if loop.last %}
+                <span class="breadcrumb-current">{{ crumb.name }}</span>
+            {% else %}
+                <a href="{{ crumb.url }}" class="breadcrumb-link">{{ crumb.name }}</a>
+                <span class="breadcrumb-separator">›</span>
+            {% endif %}
+        {% endfor %}
+    </nav>
+
+    <!-- Chapter listing if available -->
+    {% if chapters %}
+    <div class="chapter-listing">
+        <h2>Chapters</h2>
+        <ul class="chapter-list">
+            {% for chapter in chapters %}
+                <li><a href="{{ chapter.url }}">{{ chapter.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    <!-- Main content -->
+    <article class="content-article">
+        <h1>{{ content.metadata.title }}</h1>
+        
+        <!-- Table of Contents -->
+        {% if content.toc %}
+        <div class="toc-wrapper">
+            <h2>Table of Contents</h2>
+            <div class="toc">
+                {{ content.toc | safe }}
+            </div>
+        </div>
+        {% endif %}
+        
+        <!-- Content -->
+        <div class="content-body">
+            {{ content.content_html | safe }}
+        </div>
+    </article>
+
+    <!-- Subpages if available -->
+    {% if children %}
+    <div class="subpages">
+        <h2>In this section:</h2>
+        <ul class="subpage-list">
+            {% for child in children %}
+                <li><a href="{{ child.url }}">{{ child.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    <!-- Navigation between siblings -->
+    {% if siblings %}
+    <div class="sibling-navigation">
+        <h3>Related Pages</h3>
+        <ul class="sibling-list">
+            {% for sibling in siblings %}
+                <li><a href="{{ sibling.url }}">{{ sibling.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
