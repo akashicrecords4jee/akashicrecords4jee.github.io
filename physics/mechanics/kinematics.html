@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="QMvy4LUd9kqEbkLgKUPNyuYlMu0E12nfHPE_xX4zg9I" />
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+    <title>Kinematics - AK4JEE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/pygments.css">
+    <!-- MathJax Configuration -->
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/static/js/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo"><a href="/" style="color:black; height:10px">AK4JEE</a></div>
+            <div class="hamburger">☰</div>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/preface">Preface</a>
+                <a href="/physics">Physics</a>
+                <a href="/chemistry">Chemistry</a>
+                <a href="/maths">Mathematics</a>
+                <button id="theme-toggle">Toggle Theme</button>
+            </div>
+        </nav>
+        
+        <main>
+            
+<div class="content-wrapper">
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs">
+        
+            
+                <a href="/" class="breadcrumb-link">Home</a>
+                <span class="breadcrumb-separator">›</span>
+            
+        
+            
+                <a href="/physics" class="breadcrumb-link">Physics</a>
+                <span class="breadcrumb-separator">›</span>
+            
+        
+            
+                <a href="/physics/mechanics" class="breadcrumb-link">Mechanics</a>
+                <span class="breadcrumb-separator">›</span>
+            
+        
+            
+                <span class="breadcrumb-current">Kinematics</span>
+            
+        
+    </nav>
+
+    <!-- Chapter listing if available -->
+    
+
+    <!-- Main content -->
+    <article class="content-article">
+        <h1>Kinematics</h1>
+        
+        <!-- Table of Contents -->
+        
+        <div class="toc-wrapper">
+            <h2>Table of Contents</h2>
+            <div class="toc">
+                <div class="toc">
+<ul>
+<li><a href="#kinematics">Kinematics</a><ul>
+<li><a href="#position-displacement-and-distance">Position, Displacement, and Distance</a><ul>
+<li><a href="#position">Position</a></li>
+<li><a href="#displacement">Displacement</a></li>
+<li><a href="#distance">Distance</a></li>
+</ul>
+</li>
+<li><a href="#velocity">Velocity</a><ul>
+<li><a href="#average-velocity">Average Velocity</a></li>
+<li><a href="#instantaneous-velocity">Instantaneous Velocity</a></li>
+</ul>
+</li>
+<li><a href="#acceleration">Acceleration</a><ul>
+<li><a href="#average-acceleration">Average Acceleration</a></li>
+<li><a href="#instantaneous-acceleration">Instantaneous Acceleration</a></li>
+</ul>
+</li>
+<li><a href="#equations-of-motion-constant-acceleration">Equations of Motion (Constant Acceleration)</a></li>
+<li><a href="#projectile-motion">Projectile Motion</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        
+        
+        <!-- Content -->
+        <div class="content-body">
+            <h1 id="kinematics">Kinematics</h1>
+<p>Kinematics is the branch of mechanics that describes the motion of points, bodies, and systems of bodies without considering the forces that cause the motion.</p>
+<h2 id="position-displacement-and-distance">Position, Displacement, and Distance</h2>
+<h3 id="position">Position</h3>
+<p>The position of an object is its location relative to a chosen reference point or origin. It's typically represented by a position vector.</p>
+<p>$$\vec{r} = x\hat{i} + y\hat{j} + z\hat{k}$$</p>
+<h3 id="displacement">Displacement</h3>
+<p>Displacement is the change in position of an object. It's a vector quantity:</p>
+<p>$$\Delta \vec{r} = \vec{r}_f - \vec{r}_i$$</p>
+<h3 id="distance">Distance</h3>
+<p>Distance is the total length of the path traveled by an object. It's a scalar quantity and is always greater than or equal to the magnitude of displacement.</p>
+<h2 id="velocity">Velocity</h2>
+<h3 id="average-velocity">Average Velocity</h3>
+<p>Average velocity is the displacement divided by the time interval:</p>
+<p>$$\vec{v}_{avg} = \frac{\Delta \vec{r}}{\Delta t}$$</p>
+<h3 id="instantaneous-velocity">Instantaneous Velocity</h3>
+<p>Instantaneous velocity is the velocity at a specific moment in time:</p>
+<p>$$\vec{v} = \lim_{\Delta t \to 0} \frac{\Delta \vec{r}}{\Delta t} = \frac{d\vec{r}}{dt}$$</p>
+<h2 id="acceleration">Acceleration</h2>
+<h3 id="average-acceleration">Average Acceleration</h3>
+<p>Average acceleration is the change in velocity divided by the time interval:</p>
+<p>$$\vec{a}_{avg} = \frac{\Delta \vec{v}}{\Delta t}$$</p>
+<h3 id="instantaneous-acceleration">Instantaneous Acceleration</h3>
+<p>Instantaneous acceleration is the acceleration at a specific moment in time:</p>
+<p>$$\vec{a} = \lim_{\Delta t \to 0} \frac{\Delta \vec{v}}{\Delta t} = \frac{d\vec{v}}{dt}$$</p>
+<h2 id="equations-of-motion-constant-acceleration">Equations of Motion (Constant Acceleration)</h2>
+<ol>
+<li>$$\vec{v} = \vec{v}_0 + \vec{a}t$$</li>
+<li>$$\vec{r} = \vec{r}_0 + \vec{v}_0t + \frac{1}{2}\vec{a}t^2$$</li>
+<li>$$\vec{v}^2 = \vec{v}_0^2 + 2\vec{a} \cdot (\vec{r} - \vec{r}_0)$$</li>
+<li>$$\vec{r} = \vec{r}_0 + \frac{1}{2}(\vec{v}_0 + \vec{v})t$$</li>
+</ol>
+<h2 id="projectile-motion">Projectile Motion</h2>
+<p>Projectile motion is a form of motion where an object is projected into the air and moves under the influence of</p>
+        </div>
+    </article>
+
+    <!-- Subpages if available -->
+    
+
+    <!-- Navigation between siblings -->
+    
+    <div class="sibling-navigation">
+        <h3>Related Pages</h3>
+        <ul class="sibling-list">
+            
+                <li><a href="/physics/mechanics/index.html">Mechanics</a></li>
+            
+        </ul>
+    </div>
+    
+</div>
+
+        </main>
+    </div>
+</body>
+</html>
