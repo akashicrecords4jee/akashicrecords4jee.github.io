@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="QMvy4LUd9kqEbkLgKUPNyuYlMu0E12nfHPE_xX4zg9I" />
     <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
-    <title>Physics - AK4JEE</title>
+    <title>Telescoping - AK4JEE</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/style.css">
     <link rel="stylesheet" href="/static/css/pygments.css">
@@ -51,12 +51,17 @@
             
         
             
-                <a href="/physics" class="breadcrumb-link">Physics</a>
+                <a href="/maths" class="breadcrumb-link">Maths</a>
                 <span class="breadcrumb-separator">›</span>
             
         
             
-                <span class="breadcrumb-current">Index</span>
+                <a href="/maths/basic-maths" class="breadcrumb-link">Basic Maths</a>
+                <span class="breadcrumb-separator">›</span>
+            
+        
+            
+                <span class="breadcrumb-current">Telescoping</span>
             
         
     </nav>
@@ -66,7 +71,7 @@
 
     <!-- Main content -->
     <article class="content-article">
-        <h1>Physics</h1>
+        <h1>Telescoping</h1>
         
         <!-- Table of Contents -->
         
@@ -75,12 +80,10 @@
             <div class="toc">
                 <div class="toc">
 <ul>
-<li><a href="#physics">Physics</a><ul>
-<li><a href="#chapters">Chapters</a></li>
-<li><a href="#key-topics">Key Topics</a></li>
-<li><a href="#additional-resources">Additional Resources</a></li>
-</ul>
-</li>
+<li><a href="#introduction">Introduction:</a></li>
+<li><a href="#the-boring-method">The Boring Method</a></li>
+<li><a href="#the-hacks">The Hacks</a></li>
+<li><a href="#bibliography">Bibliography</a></li>
 </ul>
 </div>
 
@@ -90,29 +93,47 @@
         
         <!-- Content -->
         <div class="content-body">
-            <h1 id="physics">Physics</h1>
-<p>Physics is the natural science that studies matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.</p>
-<h2 id="chapters">Chapters</h2>
-<p>Each chapter covers key concepts, formulas, and problem-solving techniques essential for JEE preparation.</p>
-<h2 id="key-topics">Key Topics</h2>
+            <h2 id="introduction">Introduction:</h2>
+<p>Any series/sum/product that looks something like:</p>
+<p>$$
+\sum_{r=n_{\text{lower}}}^{n_{\text{upper}}} \left( f(r+1) - f(r) \right)
+$$</p>
+<p>That, or---</p>
+<p>$$
+\sum_{r=a}^{b} \left( f(r+3) - f(r-1) \right)
+$$</p>
+<p>This... or---</p>
+<p>$$
+\prod_{r=a}^{b} \left( \frac{f(r+3)}{f(r-1)} \right)
+$$</p>
+<p><em>(You get the point)</em> is called a Telescopic series.</p>
+<h2 id="the-boring-method">The Boring Method</h2>
+<p>Now typically one would solve this by <strong>cancelling out the terms</strong>, for example, take:</p>
+<p>$$
+\sum_{r=1}^{n} \left( \frac{1}{r+1} - \frac{1}{r} \right)
+$$</p>
+<p>You'd typically put the values, and write out a few  \(T_n\) terms to find out which ones get cancelled, like:</p>
+<p>$$
+\begin{aligned}
+T_1 &amp;= \frac{1}{2} - \frac{1}{1}\
+T_2 &amp;= \frac{1}{3} - \frac{1}{2}\
+T_3 &amp;= \frac{1}{4} - \frac{1}{3}\
+...\
+\end{aligned}
+$$</p>
+<p>It must be obvious, that the <strong>left diagonal</strong> or (top-left to bottom-right) are getting cancelled.</p>
+<p>Since \(S_n\) (Sum of n terms) is \(T_1+T_2+T_3+...\),</p>
+<p>\(S_n\) reduces to:</p>
+<p>$$
+S_n = \frac{1}{n+1} - \frac{1}{1}
+$$</p>
+<p>And then you put whatever values are given. But clearly this method will be <strong>REALLY PAINFUL</strong> when dealing with larger functions or series with a gap in them like: \(\sum_{r=1}^{n} ((r+3)-(r-1))\).</p>
+<h2 id="the-hacks">The Hacks</h2>
+<h2 id="bibliography">Bibliography</h2>
 <ul>
-<li><strong>Kinematics</strong>: Motion in one, two, and three dimensions</li>
-<li><strong>Newton's Laws of Motion</strong>: Force, momentum, and applications</li>
-<li><strong>Work, Energy, and Power</strong>: Conservation principles</li>
-<li><strong>Rotational Motion</strong>: Torque, angular momentum, and rigid body dynamics</li>
-<li><strong>Gravitation</strong>: Universal law, satellite motion, and gravitational potential</li>
-<li><strong>Thermodynamics</strong>: Laws, heat engines, and processes</li>
-<li><strong>Electrostatics</strong>: Coulomb's law, electric field, and potential</li>
-<li><strong>Current Electricity</strong>: Circuits, resistance, and electromotive force</li>
-<li><strong>Magnetism</strong>: Magnetic fields, forces, and electromagnetic induction</li>
-<li><strong>Optics</strong>: Reflection, refraction, and wave optics</li>
-<li><strong>Modern Physics</strong>: Photoelectric effect, atomic structure, and nuclear physics</li>
-</ul>
-<h2 id="additional-resources">Additional Resources</h2>
-<ul>
-<li>Formula sheets</li>
-<li>Common misconceptions</li>
-<li>Tips for problem-solving approaches</li>
+<li><a href="https://www.youtube.com/live/7zmFMZmwX3U">Telescoping - Anshul Sir (Youtube Video) [Main source]</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZbpePu2KDKY">Sequence and Series Class 11 - Arvind Kalia Sir (Youtube Oneshot)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sophie_Germain%27s_identity">Sophie Germain's identity (wikipedia)</a></li>
 </ul>
         </div>
     </article>
@@ -126,11 +147,7 @@
         <h3>Related Pages</h3>
         <ul class="sibling-list">
             
-                <li><a href="/physics/mechanics.html">Mechanics</a></li>
-            
-                <li><a href="/physics/thermodynamics.html">Thermodynamics</a></li>
-            
-                <li><a href="/physics/basic_maths.html">Basic Maths</a></li>
+                <li><a href="/maths/basic-maths/index.html">Basic Maths</a></li>
             
         </ul>
     </div>
