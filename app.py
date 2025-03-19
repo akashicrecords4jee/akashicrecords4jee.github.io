@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, url_for
+from flask import Flask, jsonify, render_template, url_for, redirect
 from flask_frozen import Freezer
 import os
 import frontmatter
@@ -118,7 +118,7 @@ def get_siblings(path):
             if len(parts) == len(path.split('/')) and parts[:-1] == path.split('/')[:-1]:
                 siblings.append({
                     'title': content['metadata'].get('title', parts[-1].replace('-', ' ').replace('_', ' ').title()),
-                    'url': f'/{content_path}'
+                    'url': f'/{content_path}.html'  # Add .html extension for Frozen-Flask
                 })
 
     return siblings
@@ -143,13 +143,17 @@ def get_chapter_listing(path):
         if dir_path in CONTENT:
             chapters.append({
                 'title': CONTENT[dir_path]['metadata'].get('title', dir_name.replace('_', ' ').title()),
-                'url': f'/{dir_path}'
+                'url': f'/{dir_path}.html'  # Add .html extension for Frozen-Flask
             })
 
     return chapters
 
+# Root route redirects to index.html
+@app.route('/')
+def root():
+    return redirect('/index.html')
+
 # Route for any content path
-@app.route('/', defaults={'path': '/index'})
 @app.route('/<path:path>')
 def content_page(path):
     # Strip .html extension if present (for compatibility with frozen flask)
@@ -181,7 +185,7 @@ def content_page(path):
             if len(parts) == len(path.split('/')) + 1:
                 children.append({
                     'title': content_data['metadata'].get('title', parts[-1].replace('-', ' ').replace('_', ' ').title()),
-                    'url': f'/{content_path}'
+                    'url': f'/{content_path}.html'  # Add .html extension for Frozen-Flask
                 })
 
     return render_template(
@@ -194,12 +198,17 @@ def content_page(path):
         path=path
     )
 
-# Freezer configuration for static site generation
+# Modify the freezer generator to add .html extension
 @freezer.register_generator
-def content_page_generator():
+def content_page():
     for path in CONTENT:
-        yield {'path': path}
+        yield {'path': f"{path}.html"}
+
+# Add generator for root path
+@freezer.register_generator
+def root():
+    yield {}
 
 if __name__ == '__main__':
-    # app.run(debug=True) # Uncomment this line to run the app locally
-    freezer.freeze()  # Comment to run locally (without building static site)
+    app.run(debug=True)
+    # freezer.freeze()  # Generate static files
